@@ -403,7 +403,7 @@
         </span>
         <div class="logo">
             <a href="#">
-                <img style="padding:10px 0;height:60px;" src="{$WEBPATH}themes/{$THEMENAME}/images/logo-light.png"  alt="voiz" />
+                <img style="padding:10px 0;height:60px;" src="{$WEBPATH}themes/{$THEMENAME}/images/logo-light.png"  alt="SEPIDZ" />
             </a>
         </div>
 

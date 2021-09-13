@@ -8,7 +8,7 @@
         <meta name="description" content="Neon Admin Panel" />
         <meta name="author" content="" />
 
-        <title>{$PAGE_NAME} - VOIZ | VOIPIRAN
+        <title>{$PAGE_NAME} - SEPIDZ
         </title>
 
 
@@ -151,7 +151,7 @@
 
         <div class="login-bottom-links">
 
-        <a href="http://www.voipiran.io" style="text-decoration: none;" target='_blank'>VOIZ | VOIPIRAN</a> is licensed under <a href="http://www.opensource.org/licenses/gpl-license.php" style="text-decoration: none;" target='_blank'>GPL</a>. 2006 - {$currentyear}.</div>
+        <a href="http://www.SEPIDZ.com" style="text-decoration: none;" target='_blank'>SEPIDZ</a> is licensed under <a href="http://www.opensource.org/licenses/gpl-license.php" style="text-decoration: none;" target='_blank'>GPL</a>. 2006 - {$currentyear}.</div>
 
         </div>
 
@@ -163,7 +163,7 @@
         <div class="fotter">
             <div class="copyr">
                 <p>
-                    Copyrights © 2017-2020 All Rights Reserved by <a href="http://www.voipiran.io">VOIPIRAN | ویپ ایران</a>
+                    Copyrights © 2021 All Rights Reserved by <a href="http://www.SEPIDZ.com">SEPIDZ Software Group | گروه نرم افزاری سپیدز</a>
                 </p>  
             </div>
         </div>
