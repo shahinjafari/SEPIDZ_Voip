@@ -34,7 +34,7 @@
 <!-- VOIPIRAN -->				  
         <div class="logovoiz">
             <a>
-                <img class="img-responsive" src="themes/{$THEMENAME}/images/voiz2.png" />
+                <img class="img-responsive" src="themes/{$THEMENAME}/images/SEPIDZ2.png" />
             </a>
         </div>		  
 
