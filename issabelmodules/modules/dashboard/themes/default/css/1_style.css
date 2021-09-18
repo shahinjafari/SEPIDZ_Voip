@@ -10,7 +10,7 @@
     float:left;
     margin: 10px 5px 0px 0px;
     padding: 0px 0px 10px 0px;
-    width: 480px;
+    width: 500px;
     height: 300px;
     -moz-border-radius: 10px 10px 10px 10px;
     -webkit-border-radius: 10px 10px 10px 10px;
@@ -75,7 +75,7 @@
     top:32px;
     left:0px;
     padding:8px 8px 8px 8px;
-    width:455px;
+    width:464px;
 }
 
 /*nuevo*/
