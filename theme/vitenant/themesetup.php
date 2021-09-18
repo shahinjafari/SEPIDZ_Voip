@@ -103,7 +103,7 @@ function setIcon($idMenu){
         case 'fax': return 'fa fa-print';
         case 'reports': return 'fa fa-bar-chart-o';
         case 'im': return 'fa fa-comments';
-        case 'agenda': return 'fa fa-book';
+        // case 'agenda': return 'fa fa-book';
         case 'my_extension': return 'fa fa-fax';
         case 'addons': return 'fa fa-cubes';
         case 'extras': return 'fa fa-plus';
