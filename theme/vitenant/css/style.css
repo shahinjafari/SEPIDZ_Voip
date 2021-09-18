@@ -91,7 +91,7 @@ form fieldset input[type="text"], input[type="password"] {
 }
 
 form fieldset input[type="submit"] {
-    background-color: #7fc2e5;
+    background-color: #4caf50;
     border: none;
     border-radius: 3px;
     color: #f4f4f4;
