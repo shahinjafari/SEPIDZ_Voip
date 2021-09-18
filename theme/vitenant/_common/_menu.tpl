@@ -334,16 +334,16 @@
                     </a> 
                 </li>
 				
-                <li id="header_notification_bar" class="profile-info dropdown">
+            <!--     <li id="header_notification_bar" class="profile-info dropdown">
                     <a target="_blank" id="crm_link"  class="" href="">
                         <img style="width:17px;" src="{$WEBPATH}themes/{$THEMENAME}/images/crm.png" />
                     </a> 
-                </li>
+                </li>-->
 				
-                <li id="header_notification_bar" class="profile-info dropdown">
+            <!--    <li id="header_notification_bar" class="profile-info dropdown">
                     <a data-toggle="dropdown" class="" href="#">
                         <i class="fa fa-info-circle"></i>
-                    </a>
+                    </a>-->
                     <ul class="dropdown-menu">
 
                         <!-- Reverse Caret -->
