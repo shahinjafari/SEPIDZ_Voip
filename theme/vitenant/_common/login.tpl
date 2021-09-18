@@ -35,7 +35,7 @@
     </head>
     <body class="page-body login-page login-form-fall" data-url="http://neon.dev">
 
-        <div class="logovoiz">
+        <div class="logoSEPIDZ">
             <a>
                 <img class="img-responsive" src="themes/{$THEMENAME}/images/SEPIDZ2.png" />
             </a>

@@ -293,7 +293,7 @@
         <span style='float:right; width:400px;'>
             <ul style="padding-top:12px;" class="list-inline links-list pull-right neo-topbar-notification">
 
-			<!------- voipiran Download ---->
+			<!------- SEPIDZ Download ---->
 
         <li id="header_notification_bar" class="profile-info dropdown">
             <a data-toggle="dropdown" class="" href="#">
@@ -352,7 +352,7 @@
                         <!-- Profile sub-links -->
                         <li><a href="#" class="register_link">{$Registered}</a></li>
                         <li><a href="#" id="viewDetailsRPMs"><i class="fa fa-cube"></i>{$VersionDetails}</a></li>
-                        <li><a href="http://www.voipiran.io" target="_blank"><i class="fa fa-external-link"></i>VOIPIRAN Website</a></li>
+                        <li><a href="http://www.SEPIDZ.com" target="_blank"><i class="fa fa-external-link"></i>SEPIDZ Website</a></li>
                         <li><a href="#" id="dialogaboutissabel"><i class="fa fa-info-circle"></i>{$ABOUT_ISSABEL2}</a></li>
                     </ul>
                 </li>

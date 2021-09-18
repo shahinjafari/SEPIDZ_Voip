@@ -5,9 +5,9 @@
 #-h (help)  -f(farsi) -d(special date) -s (spliter character) and without option we use finglish and print curent date. 
 #default spliter(delimiter) character is "-"
 #although -s suport  string but recomended using a character.
-#VOIPIRAN.io
-#Edited by Hamed Kouhfallah
-#k.haamed@gmail.com
+#SEPIDZ.com
+#Edited by shahin jafari
+#sh.jafari@sepidz.net
 
 date=$(date "+%Y-%m-%d") #set default date
 mode="finglish"

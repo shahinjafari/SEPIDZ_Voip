@@ -47,7 +47,7 @@ body .page-container .sidebar-menu #main-menu li ul > li > a {
 .page-container .sidebar-menu #main-menu li ul > li ul > li > a{
     background-color:#fcb424;
 }
-/*VOIPIRAN-Menu Active Font Color*/
+/*SEPIDZ-Menu Active Font Color*/
 body .page-container .sidebar-menu #main-menu li.active > a {
   color: #303030;
 }
@@ -80,7 +80,7 @@ body .page-container .sidebar-menu #main-menu li {
 body .page-container .sidebar-menu #main-menu li:hover {
     background-color:#303030;
 }
-/*VOIPIRAN-Menu Font Color*/
+/*SEPIDZ-Menu Font Color*/
 body .page-container .sidebar-menu #main-menu li a {
   color: #e5e4e7;
 }

@@ -44,11 +44,11 @@ body .page-container .sidebar-menu #main-menu li.has-sub ul li ul li{border-righ
 body .page-container .sidebar-menu #main-menu li ul > li > a {
   background-color:#303030;
 }
-/*VOIPIRAN-SideMenu Level3*/
+/*SEPIDZ-SideMenu Level3*/
 .page-container .sidebar-menu #main-menu li ul > li ul > li > a{
     background-color:#4a4b4a;
 }
-/*VOIPIRAN-Menu Active Font Color*/
+/*SEPIDZ-Menu Active Font Color*/
 body .page-container .sidebar-menu #main-menu li.active > a {
   color: #303030;
 }
@@ -66,7 +66,7 @@ body .page-container .sidebar-menu #main-menu li ul li ul li a {
 
 }
 
-/*VOIPIRAN Side Menu*/
+/*SEPIDZ Side Menu*/
 #main-menu li.opened i{color:#8bc34a;}
 body .page-container .sidebar-menu #main-menu li ul > li > a:hover{
     color:#fff; 
@@ -85,7 +85,7 @@ body .page-container .sidebar-menu #main-menu li {
 body .page-container .sidebar-menu #main-menu li:hover {
     background-color:#303030;
 }
-/*VOIPIRAN-Menu Font Color*/
+/*SEPIDZ-Menu Font Color*/
 body .page-container .sidebar-menu #main-menu i{color:#8bc34a;} li a {
   color: #fff;
 }
