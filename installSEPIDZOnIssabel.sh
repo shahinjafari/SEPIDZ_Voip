@@ -179,31 +179,7 @@ sleep 1
 
 echo "     "
 echo "     "
-echo "-------------Installing VTIGER CRM----------------"
-sleep 1
-#yes | cp -arf vtiger/crm /var/www/html
-cat vtiger/crma* > vtiger/crm.tar.gz
-yes | tar -zxvf vtiger/crm.tar.gz -C /var/www/html >/dev/null 2>&1
-touch -r /var/www/html/crm/*
-chmod -R 777 /var/www/html/crm
 
-if ! mysql -uroot -p$rootpw -e 'use SEPIDZcrm'; then
-echo "-------------َADDING VTIGER DATABASE1"
-mysql -uroot -p$rootpw -e "CREATE DATABASE IF NOT EXISTS SEPIDZcrm DEFAULT CHARACTER SET utf8 COLLATE utf8_persian_ci;"
-echo "-------------َADDING VTIGER DATABASE2"
-mysql -uroot -p$rootpw -e "GRANT ALL PRIVILEGES ON SEPIDZcrm.* TO 'root'@'localhost';"
-echo "-------------َADDING VTIGER DATABASE3"
-mysql -uroot -p$rootpw SEPIDZcrm < vtiger/crm.db
-fi
-
-
-#Config config.inc.php file
-sed -i "s/123456/$rootpw/g" /var/www/html/crm/config.inc.php  >/dev/null 2>&1
-
-issabel-menumerge crm-menu.xml
-
-echo "     "
-echo "     "
 echo "-------------Installing Network Utils----------------"
 yum install htop traceroute -y
 

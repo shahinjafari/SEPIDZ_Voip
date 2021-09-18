@@ -160,13 +160,13 @@
 
         </div>*}
 
-        <div class="fotter">
+     <!--   <div class="fotter">
             <div class="copyr">
                 <p>
                     Copyrights © 2021 All Rights Reserved by <a href="http://www.SEPIDZ.com">SEPIDZ Software Group | گروه نرم افزاری سپیدز</a>
                 </p>  
             </div>
-        </div>
+        </div>  -->
 
 	<!-- Bottom Scripts -->
 	<script type='text/javascript' src="{$WEBPATH}themes/{$THEMENAME}/js/gsap/main-gsap.js"></script>

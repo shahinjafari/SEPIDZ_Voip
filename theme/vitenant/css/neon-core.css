@@ -40,6 +40,9 @@ body {
 .logo a img{
     width: 80%;
 }
+.logo .logos{
+    width: auto !important;
+}
 input,
 button,
 select,
