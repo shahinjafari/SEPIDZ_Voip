@@ -57,12 +57,11 @@ body .page-container .sidebar-menu #main-menu li ul li.active > a{
   background-color:#303030;
 }
 body .page-container .sidebar-menu #main-menu li ul > li > a , body .page-container .sidebar-menu #main-menu li ul li ul li a {
-  padding:5px 20px;
+  padding:1rem;
   color: #8bc34a;
 }
 body .page-container .sidebar-menu #main-menu li ul li ul li a {
   color: #d7d7d7;
-  padding:6px 80px 6px 6px;
 
 }
 
