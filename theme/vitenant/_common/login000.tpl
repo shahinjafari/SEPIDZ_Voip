@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Neon Admin Panel" />
 	<meta name="author" content="" />
-<!-- VOIPIRAN -->
+<!-- SEPIDZ -->
 	<title>SEPIDZ - {$PAGE_NAME}</title>
 
 
@@ -31,8 +31,8 @@
 </head>
 <body class="page-body login-page login-form-fall" data-url="http://neon.dev">
 
-<!-- VOIPIRAN -->				  
-        <div class="logovoiz">
+<!-- SEPIDZ -->				  
+        <div class="logoSEPIDZ">
             <a>
                 <img class="img-responsive" src="themes/{$THEMENAME}/images/SEPIDZ2.png" />
             </a>
@@ -41,7 +41,7 @@
 <!-- This is needed when you send requests via Ajax --><script type="text/javascript">
 var baseurl = '';
 </script>
-<!-- VOIPIRAN -->										  
+<!-- SEPIDZ -->										  
         <div id="login">
             <div class="form-login-error">
                 <h3>Invalid login</h3>

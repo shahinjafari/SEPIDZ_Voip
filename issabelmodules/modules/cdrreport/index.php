@@ -211,7 +211,7 @@ function _moduleContent(&$smarty, $module_name)
         return $content;
         die();
     }
-//VOIPIRAN
+//SEPIDZ
     $dh = new Application_Helper_date;
     $date_parts = explode(" ", $paramFiltro['date_start']);
     $date_partsend = explode(" ", $paramFiltro['date_end']);
@@ -366,7 +366,7 @@ function _moduleContent(&$smarty, $module_name)
       $oGrid->setColumns($arrColumns);
 
         $arrResult = $oCDR->listarCDRs($paramFiltro, $limit, $offset);
-		//VOIPIRAN												 
+		//SEPIDZ												 
         $arrResult = $oCDR->listarCDRs($paramFiltro, $limit, $offset);
         $dh = new Application_Helper_date;
         if (is_array($arrResult['cdrs']) && $total > 0) {
@@ -425,7 +425,7 @@ function _moduleContent(&$smarty, $module_name)
         $arrColumns = array(_tr("Date"), _tr("Source"), _tr("Ring Group"), _tr("Destination"), _tr("Src. Channel"),_tr("Account Code"),_tr("Dst. Channel"),_tr("Status"),_tr("Duration"),_tr("Uniqueid"),_tr("User Field"));
         if(!$disableCel) { $arrColumns[]=''; }
         $oGrid->setColumns($arrColumns);
-//VOIPIRAN
+//SEPIDZ
         $dh = new Application_Helper_date;
         if (is_array($arrResult['cdrs']) && $total > 0) {
             foreach ($arrResult['cdrs'] as $key => $value) {

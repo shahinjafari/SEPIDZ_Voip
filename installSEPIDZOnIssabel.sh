@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Install SEPIDZ_Voip PBX"
-echo "SEPIDZ.io"
+echo "SEPIDZ.com"
 echo "SEPIDZ_Voip Version 4.3"
 sleep 1
 
@@ -152,16 +152,16 @@ echo "     "
 echo "     "
 echo "-------------SEPIDZ FEATURES CODES----------------"
 sleep 1
-cp -rf customdialplan/extensions_voipiran_featurecodes.conf /etc/asterisk/
-sed -i '/\[from\-internal\-custom\]/a include \=\> voipiran\-features' /etc/asterisk/extensions_custom.conf
+cp -rf customdialplan/extensions_SEPIDZ_featurecodes.conf /etc/asterisk/
+sed -i '/\[from\-internal\-custom\]/a include \=\> SEPIDZ\-features' /etc/asterisk/extensions_custom.conf
 echo "" >> /etc/asterisk/extensions_custom.conf
-echo "#include extensions_voipiran_featurecodes.conf" >> /etc/asterisk/extensions_custom.conf
+echo "#include extensions_SEPIDZ_featurecodes.conf" >> /etc/asterisk/extensions_custom.conf
 
-query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-DATETIME-Jalali','VOIPIRAN-بیان تاریخ و زمان شمسی','*20',NULL,'1','1')"
+query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-DATETIME-Jalali','SEPIDZ-بیان تاریخ و زمان شمسی','*20',NULL,'1','1')"
 mysql -hlocalhost -uroot -p$rootpw asterisk -e "$query"
-query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-DATE-Jalali','VOIPIRAN-بیان تاریخ به شمسی','*21',NULL,'1','1')"
+query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-DATE-Jalali','SEPIDZ-بیان تاریخ به شمسی','*21',NULL,'1','1')"
 mysql -hlocalhost -uroot -p$rootpw asterisk -e "$query"
-query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-TIME-Jalali','VOIPIRAN-بیان زمان به فارسی','*22',NULL,'1','1')"
+query="insert into featurecodes (modulename,featurename,description,defaultcode,customcode,enabled,providedest) VALUES('core','Say-TIME-Jalali','SEPIDZ-بیان زمان به فارسی','*22',NULL,'1','1')"
 mysql -hlocalhost -uroot -p$rootpw asterisk -e "$query"
 
 echo "     "
@@ -187,13 +187,13 @@ yes | tar -zxvf vtiger/crm.tar.gz -C /var/www/html >/dev/null 2>&1
 touch -r /var/www/html/crm/*
 chmod -R 777 /var/www/html/crm
 
-if ! mysql -uroot -p$rootpw -e 'use voipirancrm'; then
+if ! mysql -uroot -p$rootpw -e 'use SEPIDZcrm'; then
 echo "-------------َADDING VTIGER DATABASE1"
-mysql -uroot -p$rootpw -e "CREATE DATABASE IF NOT EXISTS voipirancrm DEFAULT CHARACTER SET utf8 COLLATE utf8_persian_ci;"
+mysql -uroot -p$rootpw -e "CREATE DATABASE IF NOT EXISTS SEPIDZcrm DEFAULT CHARACTER SET utf8 COLLATE utf8_persian_ci;"
 echo "-------------َADDING VTIGER DATABASE2"
-mysql -uroot -p$rootpw -e "GRANT ALL PRIVILEGES ON voipirancrm.* TO 'root'@'localhost';"
+mysql -uroot -p$rootpw -e "GRANT ALL PRIVILEGES ON SEPIDZcrm.* TO 'root'@'localhost';"
 echo "-------------َADDING VTIGER DATABASE3"
-mysql -uroot -p$rootpw voipirancrm < vtiger/crm.db
+mysql -uroot -p$rootpw SEPIDZcrm < vtiger/crm.db
 fi
 
 
@@ -217,7 +217,7 @@ echo "Apache has Restarted Sucsessfully"
 sleep 1
 
 
-echo "-----------FINISHED (SEPIDZ.io)-----------"
+echo "-----------FINISHED (SEPIDZ.com)-----------"
 
 
  

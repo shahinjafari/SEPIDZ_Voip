@@ -80,14 +80,14 @@ $arrLangModule=array(
 "URL is empty" => "لینک خالی است",
 "Field Name" => "نام فیلد",
 "Type Field" => "نوع فیلد",
-"Url" => "Url (Example: http://www.voipiran.io or http://{IP_SERVER}/mail)",
+"Url" => "Url (Example: http://www.SEPIDZ.com or http://{IP_SERVER}/mail)",
 "Module Id is empty" => "شناسه ماژول خالی است، حداقل چند حرف به عنوان نام وارد کنید.",
 "Level 1 Parent Id is empty" => "شناسه پدر سطح 1 را وارد کنید.",
 "Level 2 Parent Id is empty" => "شناسه پدر سطح 2 را وارد کنید.",
 "Message" => "پیام",
 "here" => "اینجا",
 "If you are not redirected to your new module in a few seconds, you can click" => "If you are not redirected to your new module in a few seconds, you can click",
-"Example: http://www.voipiran.io" => "Example: http://www.voipiran.io",
+"Example: http://www.SEPIDZ.com" => "Example: http://www.SEPIDZ.com",
 
 );
 ?>

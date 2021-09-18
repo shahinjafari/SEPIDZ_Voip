@@ -72,7 +72,7 @@ $arrLang=array(
 
 
 /*Login to Issabel*/
-"Welcome to Elastix"=>"به voiz خوش آمدید",
+"Welcome to Elastix"=>"به سپیدز خوش آمدید",
 "Please enter your username and password"=>"لطفا شناسه کاربري و رمز عبور خود را وارد نماييد",
 "Username"=>"شناسه کاربري",
 "Password"=>"رمز عبور",
@@ -151,10 +151,10 @@ $arrLang=array(
 
 
 /* Start About Issabel */
-"About Issabel"=>"درباره voiz",
-"About Issabel2"=>"درباره ویپ ایران",
+"About Issabel"=>"درباره سپیدز",
+"About Issabel2"=>"درباره سپیدز",
 "HELP"=>"کمک",
-"About Issabel Content"=>" voiz محبوب ترین سیستم تلفنی ویپ فارسی زبان است که توسط گروه ویپ ایران ارائه و پشتیبانی می گردد.",
+"About Issabel Content"=>" سپیدز محبوب ترین سیستم تلفنی ویپ فارسی زبان است که توسط گروه سپیدز ارائه و پشتیبانی می گردد.",
 "About Issabel Closed"=>"بستن",
 /* End About Issabel */
 
@@ -335,17 +335,17 @@ $arrLang=array(
 "Callback Extensions" => "اپراتور کال بک",
 
 
-"Change Issabel Password" => "تغییر رمز voiz",
+"Change Issabel Password" => "تغییر رمز سپیدز",
 "You are not authorized to access to this page" => "شما اجازه دسترسی به این صفحه را ندارید.",
 "You need administrator privileges" => "شما به مجوز مدیریت احتیاج دارید",
-"Issabel Authentication" => "احراز هویت voiz",
+"Issabel Authentication" => "احراز هویت سپیدز",
 "Unauthorized" => "بدون اهزار هویت",
 "You are not authorized to access this page." => "شما اجازه دسترسی به این صفحه را ندارید",
 "You have not permissions to access to Flash Operator Panel. Please contact your administrator." => "اجازه دسترسی به پنل نظارتی را ندارید لطفا با مدیریت تماس بگیرید.",
 "Advice" => "فعال",
 /*new*/
 "History" => "تاریخچه",
-"Change Issabel Password" => "تغییر رمز ورود voiz",
+"Change Issabel Password" => "تغییر رمز ورود سپیدز",
 "Current Password" => "رمز جاری",
 "New Password" => "رمز جدید",
 "Issabel Website" => "رمز جدید",
@@ -353,9 +353,9 @@ $arrLang=array(
 "Search modules" => "جستجوی منو",
 
 
-/*VOIPIRN*/
+/*SEPIDZ_VOIP*/
 "CRM" => "ارتباط با مشتری",
-"VI CRM" => "CRM ویپ ایران",
+"VI CRM" => "CRM سپیدز",
 "VI Lookup" => "جستجوی تماس گیرنده",
 "Unembedded IssabelPBX" => "تنظیمات",
 "VI Options" => "تنظیمات",
