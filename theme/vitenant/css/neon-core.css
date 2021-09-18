@@ -30,6 +30,16 @@ body {
     color: #949494;
     background-color: #ffffff;
 }
+.logo{
+    width: 51%;
+    padding: 0 !important;
+}
+.logo a{
+    width: 100%;
+}
+.logo a img{
+    width: 80%;
+}
 input,
 button,
 select,

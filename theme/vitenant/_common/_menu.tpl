@@ -168,7 +168,7 @@
         <!-- logo -->
         <div class="logo">
             <a href="#">
-                <img src="{$WEBPATH}themes/{$THEMENAME}/images/logov.png" width="40" alt="" />
+                <img src="{$WEBPATH}themes/{$THEMENAME}/images/logov1.png" width="40" alt="" />
             </a>
         </div>
         <!-- logo collapse icon -->
