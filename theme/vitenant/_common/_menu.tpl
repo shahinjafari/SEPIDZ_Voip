@@ -401,7 +401,7 @@
                 {/if}
             </ul>
         </span>
-        <div class="logo" class="LogoS">
+        <div class="logos">
             <a href="#">
                 <img style="padding:10px 0;height:60px;" src="{$WEBPATH}themes/{$THEMENAME}/images/logo-light.png"  alt="SEPIDZ" />
             </a>
