@@ -254,7 +254,7 @@
 <div class="main-content">
     <div style="height:83px;background-color:#303030;padding:15px;">
         <!-- Profile Info and Notifications -->
-        <span style='float:right; text-align:right; padding:0px 5px 0px 0px; width:175px;' class="col-md-6 col-sm-8 clearfix">
+        <span style='float:Left; text-align:right; padding:0px 5px 0px 0px; width:175px;' class="col-md-6 col-sm-8 clearfix">
             <ul style='float:right;' class="user-info pull-none-xsm">
                 <!-- Profile Info -->
                 <li class="profile-info dropdown pull-right"><!-- add class "pull-right" if you want to place this from right -->
@@ -401,11 +401,11 @@
                 {/if}
             </ul>
         </span>
-        <div class="logos">
+       <!-- <div class="logos">
             <a href="#">
                 <img style="padding:10px 0;height:60px;" src="{$WEBPATH}themes/{$THEMENAME}/images/logo-light.png"  alt="SEPIDZ" />
             </a>
-        </div>
+        </div>-->
 
     </div>
 
