@@ -115,7 +115,7 @@ Calendar._TT["INFO"] = "درباره تقویم";
 
 Calendar._TT["ABOUT"] =
 "JalaliJSCalendar\n" +
-"Added To Elastix By Haamed Kouhfallah (k.haamed@gmail.com)\n" +
+"Added To Elastix By Shahin Jafari (sh.jafaridb@gmail.com)\n" +
 "Distributed under GNU GPL. See http://gnu.org/licenses/gpl.html for details.\n\n" +
 
 

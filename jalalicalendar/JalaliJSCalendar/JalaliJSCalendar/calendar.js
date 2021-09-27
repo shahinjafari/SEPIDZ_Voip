@@ -1,6 +1,6 @@
 /* JalaliJSCalendar v1.4
  *
- * Added To Elastix By Haamed Kouhfallah (k.haamed@gmail.com)
+ * Added To Elastix By Shahin Jafari (sh.jafaridb@gmail.com)
  * Copyright (c) 2008 Ali Farhadi (http://farhadi.ir/)
  * 
  * Released under the terms of the GNU General Public License.

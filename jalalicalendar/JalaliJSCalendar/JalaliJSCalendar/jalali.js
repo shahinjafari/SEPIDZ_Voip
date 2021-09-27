@@ -1,7 +1,7 @@
 /*
  * JalaliJSCalendar - Jalali Extension for Date Object 
  *
- * Added To Elastix By Haamed Kouhfallah (k.haamed@gmail.com)
+ * Added To Elastix By Shahin Jafari (sh.jafaridb@gmail.com)
  * Copyright (c) 2008 Ali Farhadi (http://farhadi.ir/)
  * Released under the terms of the GNU General Public License.
  * See the GPL for details (http://www.gnu.org/licenses/gpl.html).

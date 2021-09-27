@@ -1,5 +1,5 @@
 /* JalaliJSCalendar - Setup Script
- * Added To Elastix By Haamed Kouhfallah (k.haamed@gmail.com)
+ * Added To Elastix By Shahin Jafari (sh.jafaridb@gmail.com)
  * 
  * 
  * Released under the terms of the GNU General Public License.

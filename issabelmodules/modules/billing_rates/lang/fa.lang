@@ -25,8 +25,8 @@
   | The Original Code is: Elastix Open Source.                           |
   | The Initial Developer of the Original Code is PaloSanto Solutions    |
   |                                                                      |
-  | Translate by: Haamed Kouhfallah                                         |
-  | Email: k.haamed@gmail.com                                     |
+  | Translate by: Shahin Jafari                                         |
+  | Email: sh.jafaridb@gmail.com                                     |
   +----------------------------------------------------------------------+
   $Id: en.lang,v 1.1 2010-01-27 02:01:42 Eduardo Cueva ecueva@palosanto.com Exp $ */
 global $arrLangModule;

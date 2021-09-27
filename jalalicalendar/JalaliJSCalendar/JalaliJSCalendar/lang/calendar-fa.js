@@ -114,7 +114,7 @@ Calendar._TT["INFO"] = "درباره تقویم";
 
 Calendar._TT["ABOUT"] =
 "JalaliJSCalendar\n" +
-"Copyright (c) 2008 Haamed Kouhfallah (http://www.voip-iran.com/)\n" + // don't translate this this ;-)
+"Copyright (c) 2008 Shahin Jafari (http://www.voip-iran.com/)\n" + // don't translate this this ;-)
 "Distributed under GNU GPL. See http://gnu.org/licenses/gpl.html for details.\n\n" +
 
 "\n\n" +
